@@ -10,11 +10,12 @@ def jogar():
 
     while (not enforcou and not acertou):
         chute = input("Qual a letra? ")
+        chute = chute.strip().lower()
 
         posicao = 0
         for letra in palavra_secreta:
             posicao = posicao + 1
-            if (letra == chute):
+            if (letra.lower() == chute):
                 print("A letra {} foi encontrada na posição {}".format(chute, posicao))
 
     print("Fim de jogo.")
