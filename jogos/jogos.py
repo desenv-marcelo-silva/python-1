@@ -1,6 +1,8 @@
 import forca
 import adivinhacao
 
+#Início do curso Python avançado!
+
 def selecionar_jogos():
     print("**********************************************")
     print("*** Bem vindo  | JOGOS | Selecione e jogue ***")
