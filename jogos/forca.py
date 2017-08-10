@@ -6,7 +6,7 @@ def jogar():
     print("*********************************")
 
 
-    arquivo = open("palavras.txt", "r")
+    arquivo = open("../palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:
